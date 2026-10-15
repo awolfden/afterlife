@@ -1,0 +1,1676 @@
+{
+  "version": "0.1.0-dev.1",
+  "publicationApproved": false,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "cd9fb479fab4d7cf7ec2b5fb080eb9c91ba869e827539e1d06103c398e69aecd",
+      "license": "MIT"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "49e6f5decba49d81cd9543bfe1d1bd86619c9dfb7f58e76678c29f015f6730b3",
+      "license": "MIT"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "5cf87aebf8e74d29e0f655206c36c2ae87e62c96cbb30ae06ea1414934c1a2f2",
+      "license": "MIT"
+    },
+    {
+      "path": "README.md",
+      "sha256": "ed4f78c0fd66a7f9c20c61ce16bd51cd325451f68bac8015f9279c0db7561737",
+      "license": "MIT"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "50ba35677e0ba218a7f1547c0f9cd83f461a1bf7108d82c1d9acbbcebdf1b82e",
+      "license": "MIT"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "dd6a46e76295a33931571cc5ff9cd82a47b612af76ea792ab6246c3d8c4d2f33",
+      "license": "mixed-notices"
+    },
+    {
+      "path": "docs/developer.md",
+      "sha256": "04ad51fa1ca6e8dbb9164dcf5d293a0b6b16cbd537af1f3e17cc486c7d539808",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/images/README.md",
+      "sha256": "351a6745174121d7c4e40fae81a6fbc53bdb70150fcc0f95b7973d1a3eb3561a",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/images/ghost-family.svg",
+      "sha256": "a85b4a22bc7ec28311a2b5842703fb1f25e52f8cf06cd8717b7b5b640f04249b",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/images/settings.svg",
+      "sha256": "2367605054735fb6f91f3fb99c8260114a60de2253ad6781cd43afc2c360c39f",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/operations.md",
+      "sha256": "52fb42b8b71a5a0c56cd83c3b81d25f566b70c81c4ff313b5e8a6a5ca02448c6",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/preservation.md",
+      "sha256": "6d035c0d78a6a3d6d3342d03d20939a6a7ae4c435a8dec8c9f27abec58189980",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/release.md",
+      "sha256": "8f382fb79096f74e75c3f42c431422e0496bc17bbc265ac0ac3e7fd1b6586181",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/settings-protocol.md",
+      "license": "MIT",
+      "sha256": "39582edf32b895842cbe83090e34ad5153148e06b84882c1d3632cb1a00dea63"
+    },
+    {
+      "path": "docs/touch.md",
+      "sha256": "c0899a318e1bbbe17f6906867f92588c9f8ca4977f47bc5f3bd143463640f071",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/user-guide.md",
+      "sha256": "197af9fa4c397aa76423e0b5bc90f83513dcc246f8ec8aff14b2b5745573cde5",
+      "license": "MIT"
+    },
+    {
+      "path": "extensions/watch-command.ts",
+      "sha256": "83e9fd40acffb6fcf7309ab1a191fe6e5d637ccfeb0f4d092674645fb3d380a6",
+      "license": "MIT"
+    },
+    {
+      "path": "extensions/watcher.ts",
+      "sha256": "d6a15401c3395fb816f3f445fa733d196750e96789d4341785f8f8b6137ffc15",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/art/afterlife.generated.h",
+      "license": "MIT",
+      "sha256": "185c6a57422b7042542c42ba29a7994b853d8d067e97c6f3507e923b565cff22"
+    },
+    {
+      "path": "firmware/art/afterlife.manifest.json",
+      "license": "MIT",
+      "sha256": "eac8cc082156bd2b18afa442870e810aa00b130ddef5b65fa3736de0b066a9ab"
+    },
+    {
+      "path": "firmware/art/ghost-family.generated.h",
+      "license": "MIT",
+      "sha256": "6f763dac15192d0c133b390c7dc82ca0b721d8eadd64e520f360c94fb6d8373d"
+    },
+    {
+      "path": "firmware/art/ghost-family.manifest.json",
+      "license": "MIT",
+      "sha256": "f2794afbc1ed6989af0154adb841a3283e582196c9b2f98afb1cce6583289a9b"
+    },
+    {
+      "path": "firmware/art/ghost.generated.h",
+      "sha256": "901566bebf91d4e81a51544b7d0cd538b2bdfd4c52bbb99e97d88300d87a47ed",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/art/ghost.manifest.json",
+      "sha256": "dc8a41dd89289c63d32e3f520d611d7055cc0e627656f2501eb6742ae07b0c1f",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/chooser-lab/partitions.csv",
+      "sha256": "56e265615338f066ffd9090d42ac354576bf6f8c4987395ebae6140fbb8c3cb6",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/CMakeLists.txt",
+      "sha256": "0bae23e8255cf944fcf22955d1a65e30250aaf31d53211f2babe054fe0986f4f",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/CMakeLists.txt",
+      "sha256": "c07d47935e4156db04a8ee7697922b5ec2b81c914ec892e9242d32c1bf79425f",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/provenance.json",
+      "sha256": "dea468620c3e771fcb39b1d883980bffde049b1398d39ab9b138444c99915b50",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream-pins.cmake",
+      "sha256": "b847c15d4bd7c2cbf8e9ab6f840283043453576bcdfcbf16dc2201d9a6d0cc85",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/audio_codec_sw_vol.c",
+      "sha256": "b8951fa4db5f32fe01315cc8b657f2a82a99fb1076d17ee87f866622addf7385",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/audio_codec_sw_vol.h",
+      "sha256": "71996ac3c9cf3bfb7f37d5b5dafa8c4fdf023ff68d5d680d9353f9a08ed85001",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/device/es8311/es8311.c",
+      "sha256": "f1634906d62262555f4575243e8c2ffa4fa0e1e3a977e640a51d8235d3cba1f0",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/device/es8311/es8311_reg.h",
+      "sha256": "a65d5cdc26413ad4cba4250f64ad92e4ab9f37e9c8829a3eb17a57711cdb87ed",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/device/include/es8311_codec.h",
+      "sha256": "e10f30ab57a2bb6b46d257a7ccba9726b61e1f201182eec2c71731e837db3dca",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/device/priv_include/es_common.h",
+      "sha256": "bbc2d51cbb01d2a2e8d0430252a2fad40a0d1813c0b7bca9765ea2364bc3eb46",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/esp_codec_dev.c",
+      "sha256": "b7a17e2ad412f4c08e0e9324aea0f217a49305510fd80e7ef3420fb31d7fd2ce",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/esp_codec_dev_if.c",
+      "sha256": "f186e338082f101513ea058b9283697ba33602bbf55f133640c8fa0746880d21",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/esp_codec_dev_vol.c",
+      "sha256": "3ec591e1757b331832c2b68c267bc18d0c6edc8b2a6933184c16935ca9ba102c",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/idf_component.yml",
+      "sha256": "30d3a0daa5921316525ae8c97053d6aab7813572ef79cc50a0be22a70d68cbe2",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/include/esp_codec_dev.h",
+      "sha256": "255074726d8949757b2c58e75de85cb3aaf11bf9ab4ee96c29b39bf06000f7c6",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/include/esp_codec_dev_os.h",
+      "sha256": "51cfe15563e7178f6a947d44a9e07dbf4af3a34e4941e5d1ae08bcf67d2a745b",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/include/esp_codec_dev_types.h",
+      "sha256": "182e02a3fe868bcfdf881d4e6b64c6d6f0fbfb75c55e7892960ef722994f4088",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/include/esp_codec_dev_vol.h",
+      "sha256": "2ee723bc80dc9cc3478eeaf6920fbce2dc707dfef33d9b4deb2d9175d702c572",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/interface/audio_codec_ctrl_if.h",
+      "sha256": "b985f54597b01afd2633b3df843a47d718a722784ebb9bbe76ece9fb1de7c3d4",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/interface/audio_codec_data_if.h",
+      "sha256": "3a9a63e4c8f49fa8624f16e835cf8d8cb88d8a6ea5b8028cd24d55ad15468459",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/interface/audio_codec_gpio_if.h",
+      "sha256": "a4e0ccb45810ccbd3c1d7719b0c9f8bb9cf19c31c3f1cff4a8c4910d292feda9",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/interface/audio_codec_if.h",
+      "sha256": "3b2a798b8e9df3a19bc327a0b7f619bdc902aa99da16519a7f7b586aadb59443",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/interface/audio_codec_vol_if.h",
+      "sha256": "d0b980fde0262a21dde7c39fad688a3935c829f80dced02f56fcc821700a0bee",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_codec/upstream/platform/esp_codec_dev_os.c",
+      "sha256": "c201cd789b0c5fbd85fc4d1702e28c472b0bdac40e333a879e64477693b49993",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "firmware/pet/components/watcher_imu/CMakeLists.txt",
+      "sha256": "020f495fabf99cef6e4a2a48b585cac2c63bca7953de590adc30f2335f43f135",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/components/watcher_imu/pins.cmake",
+      "sha256": "8fca05b6df879f222adfcb143139926a315a8e848f9b3d41f54489f99a424874",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/components/watcher_imu/provenance.json",
+      "sha256": "cdcdf080056011b4bd5c017a723b721a2370badc52baa132ccc68bb1cd4956f6",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/components/watcher_imu/upstream/LICENSE",
+      "sha256": "56df116398e0b72a12ae353d93002d29175583590283ced2c2510e3d8075546f",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "path": "firmware/pet/components/watcher_imu/upstream/bmi2.c",
+      "sha256": "8d42ba3281b8448f674a4df616a7e176a259ad3c38c53b6d2c49bfdbdb0a82db",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "path": "firmware/pet/components/watcher_imu/upstream/bmi2.h",
+      "sha256": "a86c53c480974a0c56e24d9d4e736445c61ebc07addec6d3eaceddb8a2c97cd3",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "path": "firmware/pet/components/watcher_imu/upstream/bmi270.c",
+      "sha256": "f6446867378bbcc90ea97ef6593555de8767ca20b799355c1b37c2cabb7b7b41",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "path": "firmware/pet/components/watcher_imu/upstream/bmi270.h",
+      "sha256": "7979ec4c943e2825351bd9d3d267b63abc6f8314c1f13f1c37e95cabc3fc82c8",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "path": "firmware/pet/components/watcher_imu/upstream/bmi2_defs.h",
+      "sha256": "39c2cf19bfbf735cb0ed209efd975a731be50dff71b432b24a6a2625b2b14304",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "path": "firmware/pet/components/watcher_lan/CMakeLists.txt",
+      "sha256": "b4b4c9480a2bb75e2824157ee65d279effcecfe6ff6a9ecdae3c341ab7306bd0",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/components/watcher_lan/network.cpp",
+      "sha256": "f44f9752aa87d116a64ccdb61c687e2b46aab980d7df5b1572c82701a45078fa",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/components/watcher_lan/network.h",
+      "sha256": "5dded9f72cc96ba9b87ed2bb2d6b7f4ff1572dc34d2294c8ad5751ec8df7fa0e",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/components/watcher_lan/packet-queue.h",
+      "license": "MIT",
+      "sha256": "763793175639f766ecbcfdd2ed3e42260d97d0bc2262528614fa9c89c4fd0d1d"
+    },
+    {
+      "path": "firmware/pet/components/watcher_lan/write-budget.h",
+      "sha256": "4b20e8070c11ffe18a7da22bfdf2f59dfdc690383c7c0ae6b83ee4919d59579e",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/dependencies.lock",
+      "sha256": "6effd31dd5c57177c47a68afd3ff743072decb62bcee4ac1bc9c653914167a81",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/CMakeLists.txt",
+      "sha256": "bb1b9d79c96a97be8e3890ede68513fcf62ad0f35d3a806ef56f244d0cc32521",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/audio-chime-probe.h",
+      "sha256": "28e3a349f754e1c383bac5234a8e85f8cfd7631f9384236532dec2ac97a23c03",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/audio-init-probe.h",
+      "sha256": "235e8b498e717994ba9f249a6afdbedb56b2f4440cefdca498f6071dfcbe4aa8",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/audio-path-probe.h",
+      "sha256": "53fc642a48821898cec6ac8572f054d6b29bcbd876644c2e0bdbe646d85fee90",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/audio.h",
+      "sha256": "16bea7f313743c657e857e688a7b34f077702cbf027db200d842d5178df2ead3",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/bounded-loop.inc",
+      "license": "MIT",
+      "sha256": "f1e1033c051b55e1e1c2c98fdd2751890478c65a68e3dab0e2fdf75a4dd8dbf4"
+    },
+    {
+      "path": "firmware/pet/main/bounded-scene.inc",
+      "license": "MIT",
+      "sha256": "ba9896fccae2aa10e6a3e723dd89b984967f9df8b09394a75af8fb9237fbf88e"
+    },
+    {
+      "path": "firmware/pet/main/buttons.h",
+      "sha256": "2d5fa6b729613a0f980f1e5eb661562601d53cbde5379ee950affe0c68260f5e",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/completion-chime.h",
+      "sha256": "72eea85992ec0a44f43225f359e40de2be724aedda388c7d6e39a7ebcbe8fde9",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/desk-runtime.h",
+      "license": "MIT",
+      "sha256": "9e7bd6fb061ff8f37ba966e4269ba6ad591983067e68105d7a695e9134ce8b74"
+    },
+    {
+      "path": "firmware/pet/main/desk-settings.h",
+      "license": "MIT",
+      "sha256": "6c24b8d1c821ab8ce7e0e339181a41eec908eec6e26ae0a030d441cd031a5741"
+    },
+    {
+      "path": "firmware/pet/main/factory-codec.h",
+      "sha256": "926ebf48bde3f08cbad43f5c7c9e8f1a6c7ff2bc4aea76d9976983c3aa2df1ca",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/factory-feedback-engine.h",
+      "sha256": "29625cd111b194590a9468d526fc72380ce38e0367328f0704b60f15ad3684b6",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/factory-feedback-service.h",
+      "sha256": "8bcf09d264db3f7d637ebb6ed48b9d7ea15fc4a90373fd681d918b2fd62d2040",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/ghost-wire.h",
+      "sha256": "cd0ad8a0d4d90124973ab28b3486016aa3f1fd7312d242e250427b173b020890",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/haptic-gate.h",
+      "sha256": "8f43cde824e7d5b1d543320b2b83b872e36a9f7e64e9934578f0bf21bdd78f76",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/imu.h",
+      "sha256": "9df4d1072efbd66454240b4fae0584a978665c7b702ec0750086b14b4cfc1c4f",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/lan-provision.h",
+      "sha256": "9809eeb17955803071bcbd8d8fec5df75de9e3a3dd7c4c42d2d17be08020220d",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/main.cpp",
+      "sha256": "43a24a7dc7cdeeefe999bbf4935130966f414192ac305685efd59f2ad7fef7e7",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/motion-loop.inc",
+      "license": "MIT",
+      "sha256": "2ae3b4665f5c7dee19a577a374b4b63e952b45ae287dbf57459f874b4801ef07"
+    },
+    {
+      "path": "firmware/pet/main/motor-off.h",
+      "sha256": "f52e5da0938b6dafc9027a757d09484e50bdaf6ffc9e8f3b1427d89070d213a0",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/orientation.h",
+      "sha256": "2ffa29ecf6cd938160ceb07f9ef32f16048011dbcdf8d72dc1b6cbea02f84da3",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/paging-controls.h",
+      "license": "MIT",
+      "sha256": "60d577fb74478190a782e7e459623e8ea96aa4287050a0a01c029f4c3f8c4bb9"
+    },
+    {
+      "path": "firmware/pet/main/settings-input.h",
+      "license": "MIT",
+      "sha256": "a1e9b55af87f6a3d84c311a674045c535c333c1f4f5d594630ed860dc7458382"
+    },
+    {
+      "path": "firmware/pet/main/settings-scroll.h",
+      "license": "MIT",
+      "sha256": "f3e30a0125d57cb087ba4fa3376a6cf5198ab5a690667e0e8069e7ea2cd6863e"
+    },
+    {
+      "path": "firmware/pet/main/status-route.h",
+      "license": "MIT",
+      "sha256": "802bec1b5bd5ec7bcc0563abb9b6b430abba79258a4803c25db2ce782131f9b1"
+    },
+    {
+      "path": "firmware/pet/main/storage_guard.cpp",
+      "sha256": "4cda5d7959a7a0e156fd19de8f9d03b964494ae04a99b47da9dba4427ea21681",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/supervised-pulse.h",
+      "sha256": "66763869246d95296dad9d746a00a00dd708cca9090261756f1bf1e1c17ee0e0",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/swipe.h",
+      "sha256": "0ea3696eaad33ec9cb44afccbeab36c027ed45e094fcab103c84544965c43688",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/touch-diagnostic.h",
+      "license": "MIT",
+      "sha256": "b23c3690771a85c2b175d24a44183821f8ae36dc616637058641a715ecbaa3f5"
+    },
+    {
+      "path": "firmware/pet/main/touch-normalization.h",
+      "license": "MIT",
+      "sha256": "8d49ed5ae155d3cc10b43b89055565c594ed66d724cb62acc19126bb69374afe"
+    },
+    {
+      "path": "firmware/pet/main/touch-range-usb.h",
+      "license": "MIT",
+      "sha256": "4461d263a113e2fb8f9831269725900efb69e6a4568bed48a78c67013a3c11c2"
+    },
+    {
+      "path": "firmware/pet/main/touch-range.h",
+      "license": "MIT",
+      "sha256": "960194e2c4887fee1a248cdacbab7e2097648176a47053ce34a3892ca8993254"
+    },
+    {
+      "path": "firmware/pet/main/touch-timing.h",
+      "license": "MIT",
+      "sha256": "2adab103f880d0a9594c9daf946e48b2f04c3b7d2f83ffb6776a40ef449b55d8"
+    },
+    {
+      "path": "firmware/pet/main/touch-usb.h",
+      "license": "MIT",
+      "sha256": "66ea0cce0e25ca3bc408c074841417b55b71b108bb36b5c7b815f223f558490a"
+    },
+    {
+      "path": "firmware/pet/main/touch.h",
+      "sha256": "e41d4824de5b101801f1553a955623717e13607778860da13ff1fe92d5ca88f5",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/main/wire.h",
+      "sha256": "a8c8fcc0e254cd5abe4691f8c57ad1a5ff709faf699dd3f9ac63dbec31ba5c4b",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/sdkconfig.afterlife.overlay",
+      "license": "MIT",
+      "sha256": "84dfe5bb1c42bff09f30a128e7f66b633cb2745398e9d2122d93fcfcc13b48c1"
+    },
+    {
+      "path": "firmware/pet/sdkconfig.defaults",
+      "sha256": "cd852f3e24a81f27cc2fe21c819d4ef1fe40df63a219d76a8e87f7205779e47a",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/sdkconfig.diagnostic.defaults",
+      "sha256": "b78f0b8d758286bcd352ae3e387a514d1c96545165938fa6234a8fb95607fd3a",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/pet/sdkconfig.lan.overlay",
+      "sha256": "5637490a2b585f95a28d387a7af8c35f26cb7c2a173ac809fbfff75522ae4116",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/render/README.md",
+      "sha256": "7d1c178a6a81e4e761808cb06fa4b8741bb95623d5af02a0160872a315103502",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/render/afterlife-art.h",
+      "license": "MIT",
+      "sha256": "7041b03a312be2e84b46c9b4cd9c59365da486ae8124a854ebe7d4d155e21a27"
+    },
+    {
+      "path": "firmware/render/carousel.h",
+      "license": "MIT",
+      "sha256": "911a3e5b41735ba6aa609f4460dcebec761d8ccb1156be5f78c3b949e158a744"
+    },
+    {
+      "path": "firmware/render/connecting-pose.h",
+      "license": "MIT",
+      "sha256": "d07ffb17a44625174195d48e0675d6bc28e6cda187f2a370baa0659578667b0a"
+    },
+    {
+      "path": "firmware/render/display-transfer.h",
+      "license": "MIT",
+      "sha256": "d8017239a45580e39f97b7d254f6649b6a67e4759cd8b0229da45b96c85efed7"
+    },
+    {
+      "path": "firmware/render/family-art.h",
+      "license": "MIT",
+      "sha256": "639068c3e781b5e2510359ae49b8ad2289b9815562b251896f0fbae08c4a596f"
+    },
+    {
+      "path": "firmware/render/focus-transition.h",
+      "license": "MIT",
+      "sha256": "60c4bbf22f71a1438e197300c993984732bd347a1bdea1651c28c9e5e607c7c6"
+    },
+    {
+      "path": "firmware/render/ghost.h",
+      "sha256": "798eeaf8af14b40e1858dd1108fe73fbe5533b8d098a6bcda8cc018daa43d8b7",
+      "license": "MIT"
+    },
+    {
+      "path": "firmware/render/motion-pager.h",
+      "license": "MIT",
+      "sha256": "95f321843a2a8f3e56442abbefba5589c1e1ee7183cd8ee12cff6f7c27826539"
+    },
+    {
+      "path": "firmware/render/raster-job.h",
+      "license": "MIT",
+      "sha256": "e911ba6714b3f8d9ebf7d6e1b542fae1eb3c36e44cf3693b43b5ffaf551da71b"
+    },
+    {
+      "path": "firmware/render/render-authority.h",
+      "license": "MIT",
+      "sha256": "c2cea9c4ee2e6f368ab47ba94ea614b420792f83f4a24df395a55cbd90c3a781"
+    },
+    {
+      "path": "firmware/render/retained-display.h",
+      "license": "MIT",
+      "sha256": "87bb8a0d66e442be421db05fc9201c8054ff9ad2ab761162a44e31dc419c824a"
+    },
+    {
+      "path": "firmware/render/retained-frame.h",
+      "license": "MIT",
+      "sha256": "02129df08ccbf0f3ff0a7b9376d8e57f9581a72ec1ea71971c696354fffc30e5"
+    },
+    {
+      "path": "firmware/render/scene-job.h",
+      "license": "MIT",
+      "sha256": "136989a02761de55ad68a6904cd3b792d7c4ad823246eecb37ffaf780fb7bc03"
+    },
+    {
+      "path": "firmware/render/settings-scene.h",
+      "license": "MIT",
+      "sha256": "7209dd714e7f120bc0364856990e456dc98313c785bb8b8afedb02b057c318ad"
+    },
+    {
+      "path": "firmware/render/transfer-bands.h",
+      "license": "MIT",
+      "sha256": "66d0f90e0ee6e06b2b59cdb174eee90871fff71a2ff50b65032b29f18b8ea908"
+    },
+    {
+      "path": "firmware/render/transfer-job.h",
+      "license": "MIT",
+      "sha256": "7ed045daeb21730949ee19f6caa40c05851c39d09c5af5fd886978802b39140a"
+    },
+    {
+      "path": "host/activity-binding.mjs",
+      "sha256": "2a287ecba6e8f85d6a84d18c17d9edf00fc5db033584bc3f4a8be60b39b9f5f9",
+      "license": "MIT"
+    },
+    {
+      "path": "host/attention.mjs",
+      "sha256": "64107746b9882433a2fcce4daf6b032480c6ebfb98c8c3f8f37c9008a0017e83",
+      "license": "MIT"
+    },
+    {
+      "path": "host/completion-chime.mjs",
+      "sha256": "4072000490d677927b26a5ba4abec26912a7d25820e24c3065f087ee76302d61",
+      "license": "MIT"
+    },
+    {
+      "path": "host/delivery-ledger.mjs",
+      "sha256": "283a134c3e642463f6e3e3d79026d1dc19e5810128c1cef8920065d1763ea7ad",
+      "license": "MIT"
+    },
+    {
+      "path": "host/desk-settings.mjs",
+      "license": "MIT",
+      "sha256": "f3a995efba65fd1037923d919f800f43d442079d6bb17c2b3109d869572d9b15"
+    },
+    {
+      "path": "host/device_identity.py",
+      "sha256": "ae85de1d8005cbfb4506b8b1aa77dda2ef6f1cc3e519549ecabd39080275b58c",
+      "license": "MIT"
+    },
+    {
+      "path": "host/ghost-roster.mjs",
+      "license": "MIT",
+      "sha256": "4eff38a1a430c6206abca45328a91554bc50f5c4f2f7dd5f0169ecfe7c207932"
+    },
+    {
+      "path": "host/ghost-wire.mjs",
+      "sha256": "404ca4eba2feee457294cda209dd6ff8b9afe2e6837737fcc1df87bfcef659bd",
+      "license": "MIT"
+    },
+    {
+      "path": "host/host-status.mjs",
+      "sha256": "bbb4e8096aaaee1280d769086dee3be7b190470aafec593c26d7d04ca968d2b2",
+      "license": "MIT"
+    },
+    {
+      "path": "host/hub-server.mjs",
+      "sha256": "4023eb76370c405fb03d1a23e1e87ecb4f5016809f16262a6893574ba82dd752",
+      "license": "MIT"
+    },
+    {
+      "path": "host/lan-bootstrap.mjs",
+      "sha256": "63a8ee25e842091f238dd94ea4e687ad61a8b73243ff45c9af79b8721941a10d",
+      "license": "MIT"
+    },
+    {
+      "path": "host/lan-config.mjs",
+      "sha256": "ad5621955a43eb8860ade886dfe1300656b474b06534553229b35685f7001fbf",
+      "license": "MIT"
+    },
+    {
+      "path": "host/lan-provision.mjs",
+      "sha256": "128bc886d7cf9877be767201a74201194c3bf929c4e8c6c4c3fd7205528a528a",
+      "license": "MIT"
+    },
+    {
+      "path": "host/motion-metrics.mjs",
+      "license": "MIT",
+      "sha256": "f615abfc5ca3be0a0a0984199f817f69e75c3004e706417177c59d53244bd710"
+    },
+    {
+      "path": "host/paired-lan.mjs",
+      "sha256": "06d8c2829a13d26b0837eb9fae3352bc4895c9c16ec00f7f73bfd8d03c6271a4",
+      "license": "MIT"
+    },
+    {
+      "path": "host/pi-observer.mjs",
+      "sha256": "a2a8c335e301df48d05f6b8bfde3a1473e53a0969f4a0590d53cb55e4ca24694",
+      "license": "MIT"
+    },
+    {
+      "path": "host/pi-voice-bundled-pins.json",
+      "sha256": "7579b4df8d35fce5d8c2ead652893c1bf6becb923f07db404647b47c38ee8f56",
+      "license": "MIT"
+    },
+    {
+      "path": "host/pi-voice-pins.json",
+      "sha256": "2c2162a1069b859f01ab3a36c25e1ca2be45814ed70236a24a31c6ef0b07731d",
+      "license": "MIT"
+    },
+    {
+      "path": "host/run.mjs",
+      "sha256": "9a8f4f003c50f05898bd6aca484c6ec7e811e77f10313b895ddcd272f084a2f9",
+      "license": "MIT"
+    },
+    {
+      "path": "host/serial-pipe.py",
+      "sha256": "0d78be1932f41cad916afd2467d4055460b039be0833e3caf58a6e31ccb334e8",
+      "license": "MIT"
+    },
+    {
+      "path": "host/serial_transport.py",
+      "sha256": "06edca50d6e6563acf9db8dd99cb961fbfd810bf0b1337ce69f95cc96f84cb46",
+      "license": "MIT"
+    },
+    {
+      "path": "host/server-command.mjs",
+      "license": "MIT",
+      "sha256": "19291bc0583ba24f956c2a4dfa0078fe4afc4bc1fbd9042ba84923b548fdfc45"
+    },
+    {
+      "path": "host/server-process.mjs",
+      "license": "MIT",
+      "sha256": "66de80afc772dd714f2ae052743d3fa34a2bf9a5ac00a32b7fe4e14f7598e28d"
+    },
+    {
+      "path": "host/server-secret.mjs",
+      "license": "MIT",
+      "sha256": "ad45723e2c96c4bfaa47a2caf3ce70639b7f1e670c6674c37aaa7555ad1154de"
+    },
+    {
+      "path": "host/server-worker.mjs",
+      "license": "MIT",
+      "sha256": "d634c803b3916de148b31cd106dca4ae5e03039b6d910015f5797ee4cd1d3094"
+    },
+    {
+      "path": "host/session-cycle.mjs",
+      "license": "MIT",
+      "sha256": "a6548af3cb85734b2043d8e20a012d6ab88d94fe48aad8bee45dad0850e736c1"
+    },
+    {
+      "path": "host/session-hub.mjs",
+      "sha256": "e4d956d84eeaad7acf490b01366f0b07666f36b4f523097871bcd5483d5bea36",
+      "license": "MIT"
+    },
+    {
+      "path": "host/session-identity.mjs",
+      "sha256": "3884c396bfd5fbaca6270812058de257b55d0d5ccbae2dd3c2f00798396141ff",
+      "license": "MIT"
+    },
+    {
+      "path": "host/settings-sync.mjs",
+      "license": "MIT",
+      "sha256": "01f9758ede2af0d14870d937a7336a40ad6b1e3d6f6418269a5e5caa8860ba48"
+    },
+    {
+      "path": "host/snapshot-recovery.mjs",
+      "sha256": "4c13124e4340b348ccdf4b85f4cb5b19812648fb46a2719cb38ed32defdefd2a",
+      "license": "MIT"
+    },
+    {
+      "path": "host/source-client.mjs",
+      "sha256": "f1dcb721e9b3ba504552eca390173ad8b562b6bcbe25a19348f1317e2ad5e928",
+      "license": "MIT"
+    },
+    {
+      "path": "host/supervisor-adapter.mjs",
+      "sha256": "bf064e4237b6c4b3117b100ebbed7cef3dc1bbb5a3e3e48674f69829b7972930",
+      "license": "MIT"
+    },
+    {
+      "path": "host/supervisor-binding.mjs",
+      "sha256": "1abbcaa012ed3d2cf2fa7b817ca588d3a06147df08860672f72f084cdfc13b69",
+      "license": "MIT"
+    },
+    {
+      "path": "host/touch-status.mjs",
+      "license": "MIT",
+      "sha256": "42b0cf99a07e06142b7a9099d0e730c4a24029356e4add0763b5248a20ead70f"
+    },
+    {
+      "path": "host/touch-timing.mjs",
+      "license": "MIT",
+      "sha256": "f1f60a127cd0587a3b908c079ee3e25ad995ecc768cc5b743cf12dceed8e61ac"
+    },
+    {
+      "path": "host/touch-usb.mjs",
+      "license": "MIT",
+      "sha256": "2cca99a42b926f825270c3a27464f88798be50c5c431aaeeab981f7fb8ebbccb"
+    },
+    {
+      "path": "host/usb-controller.mjs",
+      "sha256": "9f9272cfb3e3e81f7219bfcdc06578c8ee04681cb11934688e3d27a9800c4877",
+      "license": "MIT"
+    },
+    {
+      "path": "host/wire.mjs",
+      "sha256": "35ead31fc8035e856b94c079a04c47e9bcb2e7389261858fbeabb4550055371a",
+      "license": "MIT"
+    },
+    {
+      "path": "package.json",
+      "sha256": "9225a0fad77557be9af17e7b563f34910537e30ed7ad31681c5ae5212865423f",
+      "license": "MIT"
+    },
+    {
+      "path": "preview/afterlife/disconnected.svg",
+      "license": "MIT",
+      "sha256": "04949e79dd1d87e25f2c9125260720db686cafa22c085faf7cd98e20706cdbe3"
+    },
+    {
+      "path": "preview/chrome-harness.mjs",
+      "sha256": "aedc5c42d1ba28f46170d70291150c1f19678f00c606ac45b098561415820fe7",
+      "license": "MIT"
+    },
+    {
+      "path": "preview/export-afterlife.mjs",
+      "license": "MIT",
+      "sha256": "8d2a75c4ecfa8d1bee141b3fe64dec683f9e46f90028f790e3b4fa2b2641d3ed"
+    },
+    {
+      "path": "preview/export-ghost-family.mjs",
+      "license": "MIT",
+      "sha256": "9ba4809a0ccd162d4b5d1553dc25b34ab0d9fa3a2e0b8cb054453f4f69229dbb"
+    },
+    {
+      "path": "preview/export-ghost.mjs",
+      "sha256": "195983cfcfa428728f5551a0d07ab956351f40bb6952c8784e1c2993614b4697",
+      "license": "MIT"
+    },
+    {
+      "path": "preview/ghost-family/ember.svg",
+      "license": "MIT",
+      "sha256": "83243e27357fa80ae5b4399ca74e224d09c07848563e99a7447729f83c63a4e4"
+    },
+    {
+      "path": "preview/ghost-family/expressions.mjs",
+      "license": "MIT",
+      "sha256": "53fd1519196125535578f9e4bed337b8a0f9fc1335ea29e129eecdbaca24ab03"
+    },
+    {
+      "path": "preview/ghost-family/mallow.svg",
+      "license": "MIT",
+      "sha256": "5a2b00270551f1b0d7798eb0de9a1a0576c5572385c62263fbcf0352c21cb5d3"
+    },
+    {
+      "path": "preview/ghost-family/patch.svg",
+      "license": "MIT",
+      "sha256": "0a428b5464440ba07aa7d587bfad683dd50113978ef87b9d4e35d738f5bcfb85"
+    },
+    {
+      "path": "preview/ghost-family/rascal.svg",
+      "license": "MIT",
+      "sha256": "f057c16a3318a385047f1a995499ff29e51a5f9b12a48e192d5bdf70e8b96aae"
+    },
+    {
+      "path": "preview/ghost-family/wisp.svg",
+      "license": "MIT",
+      "sha256": "4b3e7ab1bba9e4f5ca85d3670f7f1a79c1f34f2234854c502dbc1d756aaa5646"
+    },
+    {
+      "path": "preview/index.html",
+      "sha256": "bf5fe6af9199fbad0d4203403cc71e68954605f5f4eab772377262025ebd86f1",
+      "license": "MIT"
+    },
+    {
+      "path": "preview/preview.mjs",
+      "sha256": "e3335f47ba7451c1ad7dc9e91def106d7e38c3bcc9ba66cbbc1a086501528ec9",
+      "license": "MIT"
+    },
+    {
+      "path": "preview/screen.mjs",
+      "sha256": "0f7ea3b53074f49333534970329422a794745b4e913779f228960308549d145d",
+      "license": "MIT"
+    },
+    {
+      "path": "preview/serve.mjs",
+      "sha256": "1623969d94e031297144641fcaf11abb01a4f408bb74d52aedeee5af1c5294f3",
+      "license": "MIT"
+    },
+    {
+      "path": "preview/server-core.mjs",
+      "sha256": "95c7167115f912c5e82343d9f01e33a2076c425328eb5041946f6c1dc1d7c11f",
+      "license": "MIT"
+    },
+    {
+      "path": "preview/style.css",
+      "sha256": "8be910adaa62f11f0fffb6810be28077995bf022c24889c24eb887bce770b7aa",
+      "license": "MIT"
+    },
+    {
+      "path": "release/tests.json",
+      "sha256": "60dbc7636da0ef32bb8c897b8f6a0c4a8c039272efb42178b5961b1aefe58dcf",
+      "license": "MIT"
+    },
+    {
+      "path": "spikes/attention-observer.ts",
+      "license": "MIT",
+      "sha256": "dfc98b5e872a19e1c8c572c8040f4545634b3ee71513f508847701ebbad018d1"
+    },
+    {
+      "path": "spikes/check-trace.mjs",
+      "license": "MIT",
+      "sha256": "3043e06383b0a68883466d9a1fe5bc311a57e60316a0a57f89a1413751721227"
+    },
+    {
+      "path": "tests/afterlife.cpp",
+      "license": "MIT",
+      "sha256": "20eb56ebfa1c77c66738ec37c9a161d5176905072ac6413db4b3c87114b27599"
+    },
+    {
+      "path": "tests/afterlife.test.mjs",
+      "license": "MIT",
+      "sha256": "d5a5569e0713dd272960d630ca27b85559a2d887df5747d188f2851ec08630ed"
+    },
+    {
+      "path": "tests/attention-focus.test.mjs",
+      "license": "MIT",
+      "sha256": "8705e0301e01e33dda3275974fc095664855dd944506e1b513712a40c3591d15"
+    },
+    {
+      "path": "tests/attention.test.mjs",
+      "sha256": "29441d17407118efb10d27b37ba61f670e26198687584322c673060129071e52",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/audio-chime-probe.cpp",
+      "sha256": "f743ca6654bd88f1565b6552282529c819ecc3b88a06ef0c14c956a9ff514e27",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/audio-chime-probe.test.mjs",
+      "sha256": "bc7a2f0575239eba764bf26f7a5e5dc6d525b7ecd82d70d17f394dec316c119d",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/audio-init-probe.cpp",
+      "sha256": "6de3d3886c65caebe53eac13bb9a80f62e009799caaf19bc924f17279f921d0c",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/audio-init-probe.test.mjs",
+      "sha256": "625c0a7d41e66de7c9b515187c8f88459c44ab52d80fbcc255e3de19d306405d",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/audio-path-probe.cpp",
+      "sha256": "f4f5d0aa095cefcec9f7b21d20ff0e59e15208074d72cd64037284fb5aef4a69",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/audio-path-probe.test.mjs",
+      "sha256": "f08b438d78eb630510dd563e08873b5b9544a1ebd4c3e8b45ba237bd49da1136",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/audio-power-first.cpp",
+      "sha256": "e2c7d3c5153b9a413b3b58bc5fa50b501cfece26ffa34061f5fa233d4af8ef4a",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/board-reset.test.mjs",
+      "license": "MIT",
+      "sha256": "82d22b14b10268604121dc6ed6c4b01e01ea81f8a97dc08e2a64693e384e0542"
+    },
+    {
+      "path": "tests/bounded-loop.cpp",
+      "license": "MIT",
+      "sha256": "e4927f61dd44d757384343903b1263b145d22dcd2c4fd38ce2e78d2fb12b832f"
+    },
+    {
+      "path": "tests/bounded-loop.test.mjs",
+      "license": "MIT",
+      "sha256": "b6d4e42210d90e5e6c850198f73d4a11aad062cb7215bfef5d8b30454dc412f7"
+    },
+    {
+      "path": "tests/build-firmware-test.py",
+      "sha256": "636a5b2919eb6e50219af650d3c7c45dd5b10cac110b0316372a67b468214ba9",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/capture-swipe-timing.test.mjs",
+      "license": "MIT",
+      "sha256": "74c44a0e956183414b082d31f0d1d53827b58084623bd554a789f6572320f379"
+    },
+    {
+      "path": "tests/carousel.cpp",
+      "license": "MIT",
+      "sha256": "bfc317d6fcd5b2ff5505c8ac70443ea3b7b78a19edefd9717d78196d5ce55919"
+    },
+    {
+      "path": "tests/carousel.test.mjs",
+      "license": "MIT",
+      "sha256": "6181bd317a941b620319351355ad081312937c432c578df8591580c41f21add2"
+    },
+    {
+      "path": "tests/compatibility-probe.test.mjs",
+      "license": "MIT",
+      "sha256": "5a7e2782cbb8f292d5c972b0cbaeb36e6c3c360180f41370d959ccf44597aba6"
+    },
+    {
+      "path": "tests/completion-audio.cpp",
+      "sha256": "1974306388a46f119d593e5ba427d91c41491e5fe42ad161fa9adbecb264ebd0",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/completion-chime.cpp",
+      "sha256": "8adc51caec9a1c2a3211f90b46754f41347b146b8a7cf715cca0773c355c1126",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/completion-chime.test.mjs",
+      "sha256": "0561ddf6550d2947381ed74b14d15a8bc7c97cf6d2608e0e815ebd25c82a975a",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/desk-cycling.test.mjs",
+      "license": "MIT",
+      "sha256": "de87eb15856c62279c07580060c9f59ca9e647c0ba4f0dbe7b3a15d359456130"
+    },
+    {
+      "path": "tests/desk-settings.test.mjs",
+      "license": "MIT",
+      "sha256": "34c35faa5003309c88db2d06c6d127e880e3326a635c60925208681ceaac5c5e"
+    },
+    {
+      "path": "tests/device-protocol.cpp",
+      "sha256": "77d70ec77239a1b8eb4814b99761ea32983e5f02abea5510d1f21d0283cf2fa7",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/device-protocol.test.mjs",
+      "sha256": "36c793ef04079fbebecabd29368941a6c0f7fe13271d7918e43860b426c81610",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/display-transfer.cpp",
+      "license": "MIT",
+      "sha256": "20c12e62529027b2cb044c45bd023f25b1b34ed34792a7bfc92e14801cef6f94"
+    },
+    {
+      "path": "tests/display-transfer.test.mjs",
+      "license": "MIT",
+      "sha256": "122320e308457249ec66521e4a7e87cd3ad28b76142fdc854f539450b0693a24"
+    },
+    {
+      "path": "tests/factory-build-policy.test.mjs",
+      "sha256": "0863dc4ba5194a8141b3ec83be06408fac082439e1116ff29ebb5fff3a37b078",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/factory-feedback.cpp",
+      "sha256": "9409f63bf12584ff309073329c32d409e391108bb5f8d8891dc059e0678e7c23",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/factory-feedback.test.mjs",
+      "sha256": "8ad43bff4840a45c299a234f020881925bd87c407324d34866a7b24bcb3c536f",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/finger-paging.cpp",
+      "license": "MIT",
+      "sha256": "21e5702a475e15b93279a7a8394d435ca68b8d2ff0a0ac9d51ee5cd559498ec3"
+    },
+    {
+      "path": "tests/finger-paging.test.mjs",
+      "license": "MIT",
+      "sha256": "84fff70fb0837ed2a0dc0d7e8a6dd771e2b91560a9c185b4e1b382621140f272"
+    },
+    {
+      "path": "tests/fixtures/audible/driver/i2s_std.h",
+      "sha256": "a205a3da4917331c5b739d28d868256ebb739ce3e115e2e0b377c70af0503313",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/audible/freertos/task.h",
+      "sha256": "bda697281e0f670ea12a7772e9c87ce9f9924f2741aa61171e43da2f93a25cc8",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/audio-path/driver/i2s_std.h",
+      "sha256": "221d55d11897ca3bc9ae9c9a20f0cc0a6066ada5c18ea469f501e9caa3622c24",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/audio-path/freertos/FreeRTOS.h",
+      "sha256": "e6c95b41ca92a58e00794ad5b3de6f76803e4a8d27a39fe2daa55a40e8825231",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/chime/driver/i2s_std.h",
+      "sha256": "a3a3a7b158f6fa405b9729bc69bc8eff2475a68be2822d831b76c98af00ac601",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/factory/driver/gpio.h",
+      "sha256": "33ec10fab2042db4b2ebd1527b278f79615a3aa74417a715f8d7fed3121829e2",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/factory/driver/i2s_std.h",
+      "sha256": "a48bcc783a4e44126430e156e5221f492f2149ff2619df50f03df32e56eb66a7",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/factory/esp_err.h",
+      "sha256": "a7fa81ee97903d26528ee5daaf9d4bb4b40852723f6ebf592739b356f9be4895",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/factory/esp_log.h",
+      "sha256": "1a07d695cbcb63bb9a45c0c4e90e2531bbe9eb22f562b56ac4eff817eed07e83",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/factory/esp_timer.h",
+      "sha256": "eb30e72c2ac19ef46500b63dd2e0752cd4db5c9bdb76e904ec88feece9a7cc3d",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/factory/freertos/FreeRTOS.h",
+      "sha256": "0240cbaa13000f55b62a8e2fac4aafa67422cf68cce5e40e6dcb933911b18154",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/factory/freertos/task.h",
+      "sha256": "0c2c26d89293ff6bd3cf46f13f585ff45cb58fb8c6ab78bee9688ef12d82d2a0",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/legacy-render.inc",
+      "license": "MIT",
+      "sha256": "a5fd1fc7d3b61faa6ebd16b2a5c945f4d945d3fbb800fb947b981ce4cc63a8d3"
+    },
+    {
+      "path": "tests/fixtures/power-first/driver/gpio.h",
+      "sha256": "2f818a56a7f538edd3ca16e9700ba3b20ba0e7dd401da40fce86c7b56f437f2a",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/power-first/driver/i2s_std.h",
+      "sha256": "a54e1c1005373acfcfca8501c31b6554ee278f78ea4ba5ff6d5c411cd6523260",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/power-first/freertos/FreeRTOS.h",
+      "sha256": "5d3c99d044d76a803b26eba5ac5d309c5b7f1bbf13ea8cac6fa618231846d6ad",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/power-first/freertos/task.h",
+      "sha256": "b9b8f073c96ec6bd5af14852d994c536326a08fbc5c4a46de86b9e7ca34452bc",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/fixtures/server-owner.mjs",
+      "license": "MIT",
+      "sha256": "ce8b74af8b927efc1cd8aec0e26ac6d6fd004e0c87542ff31d5310c052878efc"
+    },
+    {
+      "path": "tests/fixtures/server-worker.mjs",
+      "license": "MIT",
+      "sha256": "4621962de505edb9d3af47152e6b22490e3f51cadde567167933b01ea0dd5b2b"
+    },
+    {
+      "path": "tests/focus-transition.cpp",
+      "license": "MIT",
+      "sha256": "75b29bcc0e5ea8bccd0ea150092cab21ccadeecbcde5c03d082cbaab9dc058dc"
+    },
+    {
+      "path": "tests/focus-transition.test.mjs",
+      "license": "MIT",
+      "sha256": "027edd8820786965ec30851322ea2ac94ddcd3faac0e917ef525dbfc155673e3"
+    },
+    {
+      "path": "tests/ghost-assets.test.mjs",
+      "sha256": "5fa4c51264d6eab8c9aa7984016002e347877689938c896e0f189ac79e030d21",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/ghost-family-host.test.mjs",
+      "license": "MIT",
+      "sha256": "f887aca33a11282dd2aec7925a12c2cfae8c9936f0367ee4abc7fb7eaffaf374"
+    },
+    {
+      "path": "tests/ghost-family.cpp",
+      "license": "MIT",
+      "sha256": "ba6fded51e79916a6b2c27d7abe4c3974f1cf91d127e2a00d529c35d0309a18d"
+    },
+    {
+      "path": "tests/ghost-family.test.mjs",
+      "license": "MIT",
+      "sha256": "e786b9ece6f971ab973e7b02b701eea806cb4283bce2b3b56c25042707bb7fe4"
+    },
+    {
+      "path": "tests/ghost-layout-preview.cpp",
+      "sha256": "3b9867052d33ddddb72727b14a7026ec7012623c24af456710e40f343f1e64cf",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/ghost-pages.cpp",
+      "sha256": "1ba53be38d7b10e73aefff226dfef1d5ecdcdf337a1dca64f68b8fcf435422c7",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/ghost-pages.test.mjs",
+      "sha256": "366b1e74aa569759c106e58f461aa67b0b524953f75cfc0189dabdb87d85d92f",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/ghost-performance.cpp",
+      "license": "MIT",
+      "sha256": "80c9dcb672c9a5cf93518aebdfc89686cb8fe4e2c5d28af23890dbace33b0c27"
+    },
+    {
+      "path": "tests/ghost-performance.test.mjs",
+      "license": "MIT",
+      "sha256": "76995e3d259768ae898f839a5ebe369b43ea342dac38732b78053f0bb2424d72"
+    },
+    {
+      "path": "tests/ghost-render.cpp",
+      "sha256": "f80a5296fc5459932064899a323ec8bc22e7dceda9c885595d2d596f80d19343",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/ghost-roster.test.mjs",
+      "license": "MIT",
+      "sha256": "f884a870f4a8d69416d9edacf070e441a5486ec758d61574deb8a565fa8390d3"
+    },
+    {
+      "path": "tests/host-audio-path.test.mjs",
+      "sha256": "c7f7bb642e4b12089acf9b2d2bd1e37579d61e3cbe8fd1260a66081c16725cfd",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/host-daemon.test.mjs",
+      "sha256": "3448d2f44898d99915d11ef35223dd1b7755e9c8e852bef58f502fc5cb55c573",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/host-factory-feedback.test.mjs",
+      "sha256": "3fbecb4f81a8d1ad22e7af5746ba29f11cf12a91f9b3c28bcee42d9802faf492",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/host-factory-ordering.test.mjs",
+      "sha256": "251f3ed2dbf84389ce847dd81538b32278862dd6d007e3a754a88cfd07f35ed8",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/host-launcher.test.mjs",
+      "sha256": "e02ca38d11826c6cfa9c731325733b6483a00f2d75a216a0e5dd45e56956f7ae",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/host-reconnect.test.mjs",
+      "sha256": "6864093ea37d28fa9ece9e5a62259d10759e428d27e3f5303e52379bce2cd647",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/host-silence.test.mjs",
+      "sha256": "54b104d3566000b8644725609dde9902bed93237154c5f5a7561a18ed70324a7",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/host-status.test.mjs",
+      "sha256": "f515c773fb6ef507221d63ad952fbbf72de88bc1764cc8e5c58776f8187ab269",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/identity-ingress.test.mjs",
+      "sha256": "f486a4e871c961bd2dea4020c77a80ea650ca8e8ae4ae386d52dc1a07a8c1fcb",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/lan-failover.test.mjs",
+      "sha256": "0a0cd2f4c18e111ef26459cbdded5129d81cf7ba92338656da6de9b816bf701e",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/lan-host.test.mjs",
+      "sha256": "ec4ac93bf2122dc02832fe7719a5b952439f9071973e31cac7047bed0cd2a0ea",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/lan-launcher-test.py",
+      "sha256": "4f29ac7348a66c4e37a18cecdb73f2d3cd1579a2ccaf26084d475ec5e3033941",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/lan-launcher.test.mjs",
+      "sha256": "7d742aa1fd32716d052b8c782d6f896e4aecb31ef5aa6bace911437d87428d8d",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/lan-provision.cpp",
+      "sha256": "7bac609974a0d8c4d56812d5408b2a3ec885b8996262c7cc7f34c0801199a362",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/lan-provision.test.mjs",
+      "sha256": "92655fa2c1f98ad725e52d12d7bd483d91d0cd1d932a123d1fd03e1711cf0cfb",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/main-loop-yield.test.mjs",
+      "sha256": "1df61dbbf53fcb83379a8f72bbf862128445b24987184ec99119236c2e1d0df4",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/motion-metrics.test.mjs",
+      "license": "MIT",
+      "sha256": "6a91d18fc81f21d70edbaa588a5bae1919714dba4ebe77f4ff424dcb0731c891"
+    },
+    {
+      "path": "tests/motor-off.cpp",
+      "sha256": "7e7b4713c239c0261ff3ec0cabdf07fd725d1d81fe84322762923fdf5a84a542",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/next-host-review.test.mjs",
+      "sha256": "1ad3ba10801645f07b22dc386f8bc641277b0dfd66702b8a74f9ef3fd75d76fe",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/paging-diagnostics.test.mjs",
+      "license": "MIT",
+      "sha256": "ab54785e55c34e3114a696f473cf588b35449be5ccb731a078a9799df02933ee"
+    },
+    {
+      "path": "tests/paired-lan.test.mjs",
+      "sha256": "dacec445d7ee62da2ad4cd9f78ba841e69372070b5dbc534074c3cf3f129f58d",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/pi-observer.test.mjs",
+      "sha256": "04b0f0c990b965804aee6bdd3a077cf666334ef8b9b129ca8d6c5e5fc2dc97cc",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/preview-server.test.mjs",
+      "sha256": "c0fe421c145d41aef27712599909d10a0d956ed36c2fbbe1ae8ca0558e6d3bf1",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/preview.test.mjs",
+      "sha256": "c73828aec87eaf24c2d52b8879192b9abea14af6aa6be878c6fa2bc07f0797b8",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/raster-job.cpp",
+      "license": "MIT",
+      "sha256": "47a7609da62ebc695dadc427b74d9734d773c1af6abaa5ce982b9bd06a357c77"
+    },
+    {
+      "path": "tests/raster-job.test.mjs",
+      "license": "MIT",
+      "sha256": "3113211d9e0697dd9f94baeef0bf2698857d79b9ce1f67dc1fe0321891a3d158"
+    },
+    {
+      "path": "tests/render-authority.cpp",
+      "license": "MIT",
+      "sha256": "bb75210637da7449505dbf973d9ac57ba3c2b7a56183b6f565cce9074825f07f"
+    },
+    {
+      "path": "tests/render-authority.test.mjs",
+      "license": "MIT",
+      "sha256": "7cffa869bf2f30741cf1c6c7de6f6eea11d57f271676fcb895bb00eedfd684ad"
+    },
+    {
+      "path": "tests/retained-loop.cpp",
+      "license": "MIT",
+      "sha256": "5fb403802903a029658fc00c2c64c48c8800c84954140cedb1ea61630393f92f"
+    },
+    {
+      "path": "tests/retained-paging.cpp",
+      "license": "MIT",
+      "sha256": "702199ac4f66cb30cd72063316e2a3d854d6b9f88c1999409551a30af7d03e24"
+    },
+    {
+      "path": "tests/retained-paging.test.mjs",
+      "license": "MIT",
+      "sha256": "0b87b4604c91c3701e3ffac3df16cffad99534674a12ce3dfd2acc957f57af8a"
+    },
+    {
+      "path": "tests/retained-vendor.test.mjs",
+      "license": "MIT",
+      "sha256": "919f73135089514bc6618d477ac6f92fefd37a217f1a80a6fc2c9df9990900a4"
+    },
+    {
+      "path": "tests/retired-dispatch.cpp",
+      "license": "MIT",
+      "sha256": "877a84335a1573eaa27166345ca82c8343288845d59ae50b197675f2682163cb"
+    },
+    {
+      "path": "tests/scene-job.cpp",
+      "license": "MIT",
+      "sha256": "8d97b776970db7be2cb7ba5f48fe1254079be6f5311a6c65542c1d34456de0ac"
+    },
+    {
+      "path": "tests/scene-job.test.mjs",
+      "license": "MIT",
+      "sha256": "540260fba3a8ffa80cf0c2c07a5eace39084864886827c1c84b8664394008da4"
+    },
+    {
+      "path": "tests/serial-transport-test.py",
+      "sha256": "af1008df34794e73791abbcb2461c60e422844d0332c146ec1336feba0a5ba32",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/server-command.test.mjs",
+      "license": "MIT",
+      "sha256": "bc4e31fad9d2fced602691024cc932ecff0e7b50348d024d701172c14be48bb3"
+    },
+    {
+      "path": "tests/server-process.test.mjs",
+      "license": "MIT",
+      "sha256": "49d160f74b8f8bb740ae0b2810e12854df37c05ed3824c8246811cf6c871e186"
+    },
+    {
+      "path": "tests/session-hub.test.mjs",
+      "sha256": "afa03ac35f31641894aca9d839bd7a0cd0594415158be2bc7aa1dd54843c7fd6",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/session-identity.test.mjs",
+      "sha256": "30b3b8f2440fd81d6991962867191c00797b48578db4706be291cd01026935c4",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/settings-controller.test.mjs",
+      "license": "MIT",
+      "sha256": "3a8e39b6795372fe6bf816c3b3734c35a2b338022f400b0751eac5b56ae6bfe8"
+    },
+    {
+      "path": "tests/settings-input.cpp",
+      "license": "MIT",
+      "sha256": "b4ff7807346a9b0a5d481741fcfe3aae07f682e7931b94d6d7d3baf607f0570b"
+    },
+    {
+      "path": "tests/settings-input.test.mjs",
+      "license": "MIT",
+      "sha256": "969e024e0ba9803aafb4efedba67305acb456ca8ccfb9b0a502369b24b4501da"
+    },
+    {
+      "path": "tests/settings-sync.cpp",
+      "license": "MIT",
+      "sha256": "e0029fcd23b6496b01c8e7278de4cb595a253eb2fbb0f12cfd5841e9f5065554"
+    },
+    {
+      "path": "tests/settings-sync.test.mjs",
+      "license": "MIT",
+      "sha256": "032334519d406c5e42177e1bee0a96144dd8f4145c3f522ac4d8866d0d02a3eb"
+    },
+    {
+      "path": "tests/snapshot-recovery.test.mjs",
+      "sha256": "cb6ddc48f4d5adb551af2e61e12ee102247b183f25d021c25e9433c186f7514c",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/source-review.test.mjs",
+      "sha256": "d5fc6a107c2a6c1293cdc611c0da06687689296a3b41e23dac06a362caa781bb",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/stage-source-test.py",
+      "sha256": "3cbedc0f0c7d3375974b9b2998c0173e741019f73461d203ef628325b592adaa",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/supervised-pulse.cpp",
+      "sha256": "78d4a18a28a3013b848483a55ac66e22cfe970a378a538310fa21e82ba3afa4c",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/supervisor-adapter.test.mjs",
+      "sha256": "3073c2d015f6921139697f99cfc5c691eb19730b00fd2d3d90e428ecc101df9a",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/supervisor-binding.test.mjs",
+      "sha256": "2473ace08dbc99c136abc387da6e7c37e9c04b220c53cd8e6c35ded9f18f9e5b",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/supervisor-review.test.mjs",
+      "sha256": "a7ecf05639f555be74d2679607c5c1fd4cf6f55d595467ffd607178989604f0e",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/touch-clean.cpp",
+      "license": "MIT",
+      "sha256": "3a0d08d858b65fd991fce8277ea929251bf424a99bee86b60d755fd307440496"
+    },
+    {
+      "path": "tests/touch-clean.test.mjs",
+      "license": "MIT",
+      "sha256": "401067c46adea3b3aafba23665b7a5757419fac4647b8d4876cc164540c8102a"
+    },
+    {
+      "path": "tests/touch-normalization.cpp",
+      "license": "MIT",
+      "sha256": "d907a2b306149cf3b36bf35f0efcc6f47d889f97bf66d63eb3f73220b4ae1adb"
+    },
+    {
+      "path": "tests/touch-normalization.test.mjs",
+      "license": "MIT",
+      "sha256": "751a62e5e9e4343dc2c733f673aaeccbe20de7bae96f8951f47515113a075c6e"
+    },
+    {
+      "path": "tests/touch-query-clean.cpp",
+      "license": "MIT",
+      "sha256": "579f73546fb9dde25540ee353cb7aaee3926d29d8f530582ff13bd1d929071fc"
+    },
+    {
+      "path": "tests/touch-range.cpp",
+      "license": "MIT",
+      "sha256": "47490454370125bdca8557c739eab4e184a73ee5cd0ed944e05faad34e80b414"
+    },
+    {
+      "path": "tests/touch-range.test.mjs",
+      "license": "MIT",
+      "sha256": "e35aa3e34f0cb86818b2cccf768ede35bec8a2602239df29c1d48b604a73fc02"
+    },
+    {
+      "path": "tests/touch-swipe.cpp",
+      "sha256": "f6cd3c00b41aa8d82ea9b744381122066de4f3b89373667ab3f223e83d122331",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/touch-swipe.test.mjs",
+      "sha256": "7c81dc04afff1d83a227c590280fd835db01c821cfb721435ddbccaa095d01c5",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/touch-timing-full.cpp",
+      "license": "MIT",
+      "sha256": "5289b8401e2c37ef7647070a1e2ae1e14404e189a1f902680f0ddb2cb4ec518e"
+    },
+    {
+      "path": "tests/touch-timing-full.test.mjs",
+      "license": "MIT",
+      "sha256": "8e730dfaca73408314b2b26f08d699483831b27e312f9a999d5576d2504b8006"
+    },
+    {
+      "path": "tests/touch-timing.cpp",
+      "license": "MIT",
+      "sha256": "396337d963b4bc7ed0db7a4ae9d6afe5571ece8bd87fa87ae51b0837cd6ecb38"
+    },
+    {
+      "path": "tests/touch-timing.test.mjs",
+      "license": "MIT",
+      "sha256": "d1c4079c69c5f645c0425d0050d2e9bfe0e7c3f932879573f3e48207c1195703"
+    },
+    {
+      "path": "tests/touch-usb.cpp",
+      "license": "MIT",
+      "sha256": "ee587d4181827802eed6cfcaf82ca569dabf96c7197e7f3b9bc88b8e7e84433f"
+    },
+    {
+      "path": "tests/touch-usb.test.mjs",
+      "license": "MIT",
+      "sha256": "b4b55b261e8c59a0975c8d02b5012dad45227b0df912eaca9e2760ce7b3a3f4d"
+    },
+    {
+      "path": "tests/trace-set.test.mjs",
+      "license": "MIT",
+      "sha256": "d71eebb2a392d2a92664e093e95192d332c8fcd5e2f8e737c5f40ba00f09b3d4"
+    },
+    {
+      "path": "tests/transfer-bands.cpp",
+      "license": "MIT",
+      "sha256": "e54740579f9c213447f75a687ef2b270c5aee2e9ae97c9d4e15a77810e89f97d"
+    },
+    {
+      "path": "tests/transfer-bands.test.mjs",
+      "license": "MIT",
+      "sha256": "a6a9a0f2a6b9ad4dd292c9e113b5686d43f7f65014a11592e83b0907cfd487e7"
+    },
+    {
+      "path": "tests/transfer-job.cpp",
+      "license": "MIT",
+      "sha256": "ea414d7af7783a24706bdf8d3476487955ddee5cd0f83e574d4106339852930e"
+    },
+    {
+      "path": "tests/transfer-job.test.mjs",
+      "license": "MIT",
+      "sha256": "3c54d70da310c0cdf51d376548d14e14f52f08bb800376912338b66f5929178a"
+    },
+    {
+      "path": "tests/usb-controller.test.mjs",
+      "sha256": "ca9e3d9206efb5090706460c56014446bc769dbfc7790b3b1cd2e2cf2947bce4",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/usb-review-regressions.test.mjs",
+      "sha256": "9b0717573176bce47444312a353fc7178254da6dbd60599dff1ef23d7a95005c",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/voice-removed.cpp",
+      "license": "MIT",
+      "sha256": "40bbee6b6e771143eacddaa9879967df10af6f5966708cfc58fcce9ea441908f"
+    },
+    {
+      "path": "tests/voice-removed.test.mjs",
+      "license": "MIT",
+      "sha256": "efc036d2e1d0ccb4cbc6d9758bfc4a677d0aa986b57b0905868fa6ea0952e256"
+    },
+    {
+      "path": "tests/watch-command.test.mjs",
+      "sha256": "a0b0dd66f8092fbcbc787cffcb4b9c27edefdf3f473b62124a4bb24df91211bd",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/watched-launcher.test.mjs",
+      "sha256": "313e33a1889dbbd7a06c6456f66bcfed568f1cd66ab330e96e42920068934667",
+      "license": "MIT"
+    },
+    {
+      "path": "tools/build-firmware.py",
+      "sha256": "749c0464cc43e4d89dd8d92a9b71baf718b5a7ae78c09da75be6fb0936bed684",
+      "license": "MIT"
+    },
+    {
+      "path": "tools/capture-swipe-timing.mjs",
+      "license": "MIT",
+      "sha256": "3fd101dd1252724537d47bc41aff7d3435139d7e49a50066e1a00aa4ce0bba36"
+    },
+    {
+      "path": "tools/pi-watched.sh",
+      "sha256": "48824b8f0e8d51caf9952c82cbdcc62a754139750f1e0fc176c58a67f2ec2f07",
+      "license": "MIT"
+    },
+    {
+      "path": "tools/stage-source.py",
+      "sha256": "f45f40964281ee0ffc2c5acc160b08d765e827a60c90a795166a1a9c11abdbbd",
+      "license": "MIT"
+    },
+    {
+      "path": "tools/test-source.mjs",
+      "sha256": "19a13d4f11a6055a04ff3062f399b615acb7edc1b7379f43400262603a88300a",
+      "license": "MIT"
+    },
+    {
+      "path": "tools/watcher-host.sh",
+      "sha256": "7ab34fb3fdfdd4f3e1ff393d06ab1740c3de7556cd09fbf2f6c644dffe17dceb",
+      "license": "MIT"
+    },
+    {
+      "path": "tools/watcher-lan.mjs",
+      "sha256": "731524f2fbdca332e594925cbbf0bce104d767cddcd07e6e40f47f134c7aadc4",
+      "license": "MIT"
+    },
+    {
+      "path": "tools/watcher-lan.py",
+      "sha256": "140d246caeb8c2765e9e571f20a5c3d3551e91c68d04ed5179a5853e6afda1f2",
+      "license": "MIT"
+    },
+    {
+      "path": "tools/watcher-status.mjs",
+      "sha256": "6c7f3aa7b58a66c02564a41156838ef9ca31234cabc79f884e6bee28bbe92f40",
+      "license": "MIT"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Mischievous pearl ghost with a round body, tiny fangs and a raspberry tongue"><style>.ink{fill:oklch(25% .038 290)}.line{fill:none;stroke:oklch(25% .038 290);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.light{fill:oklch(97% .008 290)}</style><defs><linearGradient id="pearl" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="oklch(97% .012 290)"/><stop offset=".55" stop-color="oklch(88% .033 285)"/><stop offset="1" stop-color="oklch(69% .066 292)"/></linearGradient></defs>
+<path d="M64 135Q31 115 25 139Q23 157 68 165M217 134Q250 114 255 138Q258 158 215 164" fill="oklch(79% .049 285)"/>
+<path d="M61 191C26 160 40 94 82 67C116 45 170 47 205 77C237 105 245 155 218 190C224 201 244 203 242 213C222 228 194 219 177 211C143 231 89 224 61 191Z" fill="url(#pearl)"/>
+<path d="M64 114Q70 76 115 69Q87 88 81 112Q74 126 64 114" fill="oklch(98% .008 290)"/>
+<g id="expression"><path d="M87 109Q103 100 117 111M159 110Q175 99 191 108" class="line"/>
+<ellipse cx="104" cy="129" rx="10" ry="15" class="ink"/><ellipse cx="174" cy="129" rx="10" ry="15" class="ink"/><circle cx="101" cy="124" r="3" class="light"/><circle cx="171" cy="124" r="3" class="light"/>
+<path d="M103 154Q141 177 180 151Q174 197 143 198Q113 196 103 154Z" fill="oklch(29% .077 327)"/>
+<path d="M110 159L118 175L127 166M158 166L169 173L176 156" class="light"/>
+<path d="M127 186Q141 172 151 188Q158 178 166 188L165 205Q146 219 129 203Z" fill="oklch(70% .17 355)"/><path d="M149 189V204" fill="none" stroke="oklch(49% .12 345)" stroke-width="3" stroke-linecap="round"/>
+</g><ellipse cx="77" cy="149" rx="13" ry="6" fill="oklch(81% .08 343)"/><ellipse cx="202" cy="146" rx="13" ry="6" fill="oklch(81% .08 343)"/>
+</svg>

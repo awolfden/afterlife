@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "version": "0.87.0",
+  "bundleSource": "dist/bundle/chunks/chunk-4DKZACXI.js",
+  "files": {
+    "package.json": "9bb655451e850a8593ba87f563c26d3d2af2f503b76318e2f1bbe53eb28c9180",
+    "dist/bundle/chunks/chunk-4DKZACXI.js": "2b60c86e356ef338ab1cea32b63f8f01e8d8d3bb7f14342fcc876a8d9a8b5505"
+  },
+  "absent": ["dist/package.json", "dist/node_modules", "dist/bundle/node_modules", "dist/bundle/chunks/node_modules"],
+  "trees": [
+    {
+      "path": "dist/bundle",
+      "extensions": [".cjs", ".js", ".json", ".mjs"],
+      "count": 56,
+      "sha256": "a6ee282b7ce3ce98c42ea064add5bca255976ccc1ae432afaf004e592439a984"
+    },
+    {
+      "path": "node_modules/jiti",
+      "extensions": [".cjs", ".js", ".json", ".mjs"],
+      "count": 10,
+      "sha256": "42e09bd109460be853001d2fd9f93d6a4f2dc8bfa82764dfe751f1c363cf0b03"
+    }
+  ],
+  "classHashes": {
+    "CustomEditor": "b194993d0a9aac1e730546d521a8cd771594e3e62f23a6336032b11ef4ac961e",
+    "ExtensionInputComponent": "6fa3974d5a2274474db614af086fb0312dbc105dad7dc7aa4bc1e9d7e19887f3",
+    "ExtensionEditorComponent": "63032cc4fd029f838816ce9f10f107db0bf1024121410264cc8b450dc08ea89d"
+  },
+  "resolverHashes": {
+    "normal": "9e7cb481159056c073cb4ba9850083e417feaeaf776475fab1d76b9ab956d290",
+    "input": "b2bbc9d415cf91e2b620e465b86d605314e7ae36a5e38599504624cb6e9ef925",
+    "editor": "a9c70dd39863bebe68ac36ff84a9cb3fcba3c394b612c85f480e068252f54e98"
+  }
+}

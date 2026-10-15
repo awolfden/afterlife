@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "version": "0.87.0",
+  "files": {
+    "dist/modes/interactive/interactive-mode.js": "7dc366e8609d7d1e81fb85952e466aea9933b13e74842c2a9b9df678d267d12e",
+    "dist/modes/interactive/components/extension-input.js": "b4400ff663adf7be626c0ce4e353174c54223458f3aec94d53cb033c98e29934",
+    "dist/modes/interactive/components/extension-editor.js": "cec67ee4fe2a3248db81e980ba79a171c10d77330dc2be77b780718555bf1683",
+    "dist/modes/interactive/components/custom-editor.js": "000b0056f2bf645537537468bdd6f6ee0c82e4110f5417c1c70c2e8fefc04f29",
+    "dist/core/extensions/runner.js": "67c7ca2d24197ff46cb5f0a49d7c19a76825ab7c66bc942015a484b550396441",
+    "dist/core/agent-session.js": "5ebfae51db5a900596145159428e7cb57d195af9d54a28f41d4ac8ff1bfd5729",
+    "node_modules/@earendil-works/pi-tui/dist/tui.js": "358ae5250934153e4edcf57dd72a029ff85cc97d0958d5a6a6743ad101724961",
+    "node_modules/@earendil-works/pi-tui/dist/components/editor.js": "e6efdddb40ccf924616d1e61666c394ccd36d1db49e3a0fb11d555d81cf972a8",
+    "node_modules/@earendil-works/pi-tui/dist/components/input.js": "8d2d029156efe391f858d78d0d54897ddca7d6317a62c8bfcf959c5f9f8dcd62"
+  },
+  "resolverHashes": {
+    "normal": "197f105ecc1702ab44fdeece2a41ddc3da095d1b3d54037813b5dbbf036456b8",
+    "input": "30dc61e1cd3ea46555e71fa51c7bbdfa40e151c34179faf7f3989a017c4d89d2",
+    "editor": "50973b55007836b4ffe35025cd487d767367ee0ae95daf2b80ba3bacd0869c9e"
+  }
+}

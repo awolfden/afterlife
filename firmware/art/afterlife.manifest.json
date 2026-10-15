@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "width": 466,
+  "height": 466,
+  "format": "Opaque RGB565 row RLE, immutable flash offsets; no decoded runtime canvas",
+  "runs": 14522,
+  "binaryBytes": 59956,
+  "sourceSha256": "04949e79dd1d87e25f2c9125260720db686cafa22c085faf7cd98e20706cdbe3",
+  "exporterSha256": "8d2a75c4ecfa8d1bee141b3fe64dec683f9e46f90028f790e3b4fa2b2641d3ed",
+  "headerSha256": "185c6a57422b7042542c42ba29a7994b853d8d067e97c6f3507e923b565cff22",
+  "decodedSha256": "c1a84484ea620b9cf13ce2bc78a2ca903e4d5b37c16e3cad75f9a33c9b513d40",
+  "prompt": {
+    "text": "Connect to Pi",
+    "rendering": "Native SceneProgram text; excluded from artwork"
+  },
+  "limitations": "Offline export, not hardware performance evidence"
+}

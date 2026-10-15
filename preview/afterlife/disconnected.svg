@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="466" height="466" viewBox="0 0 466 466" role="img" aria-labelledby="title desc">
+<title id="title">Afterlife: Connect to Pi</title><desc id="desc">Original angular graffiti wordmark in pale lilac with purple outlines and teal ghost fire. A quiet ghost mural sits around the circular display's edges.</desc>
+<defs>
+ <clipPath id="screen"><circle cx="233" cy="233" r="233"/></clipPath>
+ <g id="ghost"><path d="M-25 19V-7C-25-40 25-40 25-7V19L12 13 1 24-11 15-25 23Z"/><path d="M-9-8V-2M9-8V-2" fill="none" stroke="#100d19" stroke-width="5" stroke-linecap="round"/></g>
+ <g id="letters" fill-rule="evenodd">
+  <!-- Original drawn letterforms, not a downloaded font. -->
+  <path d="M0 76 12 4 34 0 38 76 25 76 24 57 15 59 12 76ZM18 22 16 45 24 43 23 21Z"/>
+  <path transform="translate(43 0)" d="M0 76 3 4 34 1 33 17 16 18 16 32 30 30 29 46 15 47 14 73Z"/>
+  <path transform="translate(79 -4)" d="M0 5 37 0 36 18 25 19 24 78 10 80 11 20 0 22Z"/>
+  <path transform="translate(119 1)" d="M0 75 2 3 33 0 32 15 16 18 16 30 29 28 29 43 15 46 15 59 34 55 32 72Z"/>
+  <path transform="translate(158 -2)" d="M0 78 2 4 24 1 36 12 34 36 24 45 38 71 25 80 14 53 14 76ZM15 19 15 34 22 32 23 19Z"/>
+  <path transform="translate(200 2)" d="M0 72 2 1 17 0 16 57 34 53 31 73Z"/>
+  <path transform="translate(238 0)" d="M0 76 2 3 17 0 15 74Z"/>
+  <path transform="translate(262 -1)" d="M0 76 2 5 35 0 33 17 16 19 16 33 30 30 29 46 15 49 14 73Z"/>
+  <path transform="translate(301 1)" d="M0 74 2 4 34 0 33 16 16 19 16 31 30 28 29 44 15 47 15 60 35 55 33 72Z"/>
+ </g>
+</defs>
+<g clip-path="url(#screen)">
+ <path fill="#100d19" d="M0 0H466V466H0Z"/>
+ <!-- Quiet mural: sparse, clipped, low-contrast silhouettes. -->
+ <g fill="#231c32">
+  <use href="#ghost" transform="translate(76 108) rotate(-21) scale(1.35)"/>
+  <use href="#ghost" transform="translate(390 153) rotate(19) scale(1.2)"/>
+  <use href="#ghost" transform="translate(103 397) rotate(15) scale(1.6)"/>
+  <use href="#ghost" transform="translate(362 391) rotate(-19) scale(.95)"/>
+ </g>
+ <g fill="none" stroke="#193034" stroke-width="3" stroke-linecap="round">
+  <path d="M-8 262C27 244 19 209 38 190 29 227 54 231 39 260 30 280 15 297 24 320"/>
+  <path d="M425 337C434 310 458 309 452 284 472 306 458 333 438 347"/>
+  <path d="M302 58C318 45 333 51 337 32"/>
+ </g>
+ <g fill="#2c2340"><path d="m133 45 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/><path d="m420 237 2 5 5 2-5 2-2 5-2-5-5-2 5-2Z"/></g>
+ <!-- Ghost-fire crest, intentionally one quiet focal ornament. -->
+ <path fill="#422967" d="M178 177C156 162 169 138 178 129 172 151 192 144 196 127 201 107 219 104 226 82 231 108 248 113 248 133 266 129 266 116 264 110 289 127 297 158 277 177L253 190 213 182 191 190Z"/>
+ <path fill="#9a71d7" d="M187 174C172 163 186 143 193 140 190 153 203 152 207 136 211 117 228 115 230 101 238 120 238 133 235 141 249 135 259 145 259 133 278 146 279 166 263 177L245 182 222 177 203 183Z"/>
+ <path fill="#59d8c5" d="M204 174C190 163 205 151 211 140 212 152 218 144 222 138 227 128 227 123 228 120 240 140 232 147 242 147 249 147 252 143 253 140 269 158 259 172 252 174L247 184 234 179 225 187 216 177 207 181Z"/>
+ <path fill="#152d33" d="M216 159C214 149 221 149 222 156L221 162ZM237 156C240 148 245 151 242 160L236 164Z"/>
+ <path fill="#c5f0df" d="M209 156C209 150 214 146 215 145L216 149 212 157Z"/>
+ <!-- Purple fire slips behind a few letters, never through their counters. -->
+ <g fill="#684397"><path d="M84 213C64 202 74 182 82 174 77 195 96 186 96 166 112 188 98 198 111 211Z"/><path d="M311 214C299 202 313 189 311 177 328 192 316 199 333 204 339 198 341 192 340 188 353 203 342 213 334 220Z"/></g>
+ <g fill="#54cbbd"><path d="M84 211C76 204 85 197 85 190 98 200 90 204 97 211Z"/><path d="M322 211C316 206 323 201 322 196 331 202 324 206 335 211Z"/></g>
+ <!-- Wide tracking and open counters preserve the nine-letter name at badge size. -->
+ <g transform="translate(66 208) skewX(-7)">
+  <use href="#letters" transform="translate(5 7)" fill="#388f91" stroke="#388f91" stroke-width="10" stroke-linejoin="round"/>
+  <use href="#letters" fill="#eadff6" stroke="#181022" stroke-width="16" stroke-linejoin="round"/>
+  <use href="#letters" fill="#eadff6" stroke="#8253b5" stroke-width="9" stroke-linejoin="round"/>
+  <use href="#letters" fill="#eadff6" stroke="#301f46" stroke-width="3" stroke-linejoin="round"/>
+ </g>
+ <!-- One energetic underline rather than decorative clutter. -->
+ <path fill="#7951a7" d="M77 302 358 297 344 309 116 317 102 311 57 315Z"/>
+ <path fill="#62d6c4" d="m104 305 249-3-9 4-225 5Z"/>
+ <text x="233" y="356" fill="#e9e1f1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="500" text-anchor="middle" letter-spacing=".3">Connect to Pi</text>
+</g>
+</svg>

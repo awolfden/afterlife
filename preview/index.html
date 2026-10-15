@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pi watcher · Ghost preview</title>
+<link rel="stylesheet" href="/style.css">
+<script type="module" src="/preview.mjs"></script>
+</head>
+<body>
+<header><span class="eyebrow">PI WATCHER / STOPWATCH</span><h1>Ghost preview</h1><p>Original ghost, real attention rules. <strong>Simulated sessions only.</strong></p></header>
+<main>
+<section class="stage" aria-label="Round badge preview">
+<div class="device"><svg id="screen" viewBox="0 0 466 466" role="img" aria-labelledby="screen-title screen-desc">
+<title id="screen-title">Pi watcher preview</title><desc id="screen-desc">An expressive purple ghost showing a simulated session.</desc>
+<defs>
+<clipPath id="round"><circle cx="233" cy="233" r="233"/></clipPath>
+<linearGradient id="ghost-color" x1="0" y1="0" x2="0.65" y2="1"><stop offset="0" stop-color="oklch(83% .115 302)"/><stop offset=".55" stop-color="oklch(72% .17 300)"/><stop offset="1" stop-color="oklch(61% .195 299)"/></linearGradient>
+</defs>
+<g clip-path="url(#round)">
+<rect width="466" height="466" class="screen-bg"/>
+<text id="session-label" x="233" y="66" class="session-label">Session 1</text>
+<g id="page-dots"></g>
+<ellipse id="shadow" cx="233" cy="317" rx="61" ry="8" class="ground"/>
+<g id="ghost" transform="translate(233 215)">
+<g id="left-arm"><path d="M-76 8 C-115 4 -128 23 -117 35 C-103 48 -80 29 -71 23Z" class="arm"/></g>
+<g id="right-arm"><path d="M76 8 C115 4 128 23 117 35 C103 48 80 29 71 23Z" class="arm"/></g>
+<path class="body" d="M-87 60 C-86 21 -105 -18 -78 -64 C-55 -105 2 -118 48 -91 C87 -69 87 -25 88 17 C88 46 113 69 100 84 C85 101 72 76 58 81 C42 85 37 106 17 94 C0 80 -10 105 -30 96 C-48 86 -54 77 -68 88 C-86 104 -107 83 -87 60Z"/>
+<path class="shine" d="M-72 -35 C-77 -63 -48 -88 -21 -90 C-44 -79 -58 -62 -59 -36 C-59 -25 -70 -24 -72 -35Z"/>
+<g id="face">
+<g id="eyes"><ellipse id="eye-l" cx="-31" cy="-17" rx="17" ry="23"/><ellipse id="eye-r" cx="31" cy="-17" rx="17" ry="23"/>
+<g id="pupils"><ellipse cx="-31" cy="-15" rx="11" ry="16"/><ellipse cx="31" cy="-15" rx="11" ry="16"/><circle cx="-34" cy="-22" r="4" class="glint"/><circle cx="28" cy="-22" r="4" class="glint"/><circle cx="-27" cy="-10" r="2" class="glint"/><circle cx="35" cy="-10" r="2" class="glint"/></g></g>
+<path id="closed-eyes" class="face-line" d="M-44 -14 Q-31 -28 -18 -14 M18 -14 Q31 -28 44 -14" visibility="hidden"/>
+<path id="brows" class="brow" d="M-47 -48 Q-32 -55 -18 -48 M18 -48 Q32 -55 47 -48"/>
+<ellipse cx="-60" cy="14" rx="15" ry="8" class="cheek"/><ellipse cx="60" cy="14" rx="15" ry="8" class="cheek"/>
+<path id="mouth" class="face-line" d="M-18 27 Q0 44 18 27"/>
+<path id="tongue" d="M-10 41 Q0 34 10 41 Q0 48 -10 41Z" visibility="hidden"/>
+<path id="teeth" d="M-17 33 H17 M-6 26 V39 M6 26 V39" visibility="hidden"/>
+<path id="frustration" d="M59 -80 V-71 H68 M78 -80 V-71 H69 M59 -57 V-66 H68 M78 -57 V-66 H69" visibility="hidden"/>
+</g>
+</g>
+<text id="status-label" x="233" y="362" class="status-label">Thinking</text>
+<text id="detail-label" x="233" y="392" class="detail-label">Nothing needs you yet</text>
+<text id="footer-label" x="233" y="423" class="footer-label">1 / 3 · Alerts on</text>
+</g></svg></div>
+<div class="hardware-controls" aria-label="Simulated hardware controls"><button id="previous" class="key yellow" aria-label="A: previous session">A <span>Previous</span></button><button id="next" class="key blue" aria-label="B: next session">B <span>Next</span></button></div>
+<p class="stage-note">466 × 466 display preview. Not connected to your badge.</p>
+</section>
+<section class="controls" aria-labelledby="controls-heading">
+<span class="eyebrow">TRY THE EXPRESSIONS</span><h2 id="controls-heading">Try a state.</h2>
+<label for="scene">Selected session’s simulated state</label>
+<select id="scene"><option value="idle">Idle</option><option value="thinking" selected>Thinking</option><option value="working">Working with children</option><option value="needs-input">Needs your input</option><option value="child-help">Child needs help</option><option value="completed">Completed</option><option value="failed">Explicit failure</option><option value="unavailable">Unknown status</option></select>
+<p class="hint">Changing this scene replaces the selected session’s synthetic events. It never changes a real agent.</p>
+<div class="actions"><button id="ack">ACK displayed item</button><button id="mute" aria-pressed="false">Mute alerts</button></div>
+<p class="hint">On the badge: short A+B to ACK, long A+B to mute. ACK silences the alert; the request stays visible.</p>
+<button id="resolve" class="text-button">Simulate request resolution ↗</button>
+<div class="separator"></div>
+<div class="setting"><label for="brightness">Display brightness <output id="brightness-value" for="brightness">85%</output></label><input id="brightness" type="range" min="35" max="100" value="85"><p class="hint">Visual approximation, not a hardware brightness measurement.</p></div>
+<label class="toggle"><input id="reduced" type="checkbox"> Reduce motion</label>
+<label class="toggle"><input id="link" type="checkbox" checked> Simulate USB connected</label>
+<label class="toggle"><input id="ambient" type="checkbox"> Preview in dim surroundings</label>
+<div class="event-readout" aria-live="polite"><span class="eyebrow">SIMULATED HAPTIC INTENTS</span><p id="events">No alerts issued</p></div>
+<p class="hint">No sound or vibration. Child help becomes eligible only after 10 seconds unresolved. Hardware timing remains untested.</p>
+</section>
+</main>
+<footer><span>init() stays its own app.</span><span>Original artwork · Local-only preview</span></footer>
+<div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+</body></html>

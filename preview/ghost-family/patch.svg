@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Cute green zombie ghost with an uneven crown, stitched brow, mismatched eyes and patched ragged body"><style>.ink{fill:oklch(25% .038 290)}.line{fill:none;stroke:oklch(25% .038 290);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.light{fill:oklch(97% .008 290)}</style><defs><linearGradient id="moss" x2=".8" y2="1"><stop stop-color="oklch(84% .13 130)"/><stop offset=".5" stop-color="oklch(74% .13 145)"/><stop offset="1" stop-color="oklch(52% .11 165)"/></linearGradient></defs>
+<path d="M81 146L43 133Q32 139 40 154L70 172M204 140L234 150Q243 168 229 171L202 160" fill="oklch(62% .11 149)"/>
+<path d="M66 218L76 112Q71 68 103 61L118 64L121 55L150 60L162 51L173 63Q207 65 208 102L214 218L192 207L176 228L155 210L139 224L120 209L95 225L84 207Z" fill="url(#moss)"/>
+<path d="M88 99Q85 74 111 72L139 75" fill="none" stroke="oklch(90% .09 125)" stroke-width="8" stroke-linecap="round"/>
+<path d="M145 80L182 91M152 76L149 86M164 80L160 89M177 82L172 93" fill="none" stroke="oklch(34% .06 160)" stroke-width="3.5" stroke-linecap="round"/>
+<g id="expression"><ellipse cx="110" cy="132" rx="21" ry="24" fill="oklch(93% .032 110)"/><ellipse cx="169" cy="136" rx="17" ry="19" fill="oklch(89% .043 110)"/>
+<ellipse cx="115" cy="136" rx="9" ry="13" class="ink"/><ellipse cx="164" cy="139" rx="7" ry="9" class="ink"/><circle cx="113" cy="131" r="3" class="light"/>
+<path d="M91 116L128 119M156 122L183 121" fill="none" stroke="oklch(41% .085 155)" stroke-width="6" stroke-linecap="round"/>
+<path d="M115 174Q141 180 166 168" fill="none" stroke="oklch(30% .045 160)" stroke-width="5" stroke-linecap="round"/><path d="M132 178L133 188L143 189L143 179" fill="oklch(94% .025 95)"/>
+</g><path d="M174 182L194 180L199 202L178 206Z" fill="oklch(59% .09 190)"/><path d="M174 188L182 187M177 199L185 197M188 179L190 186M191 199L193 206" fill="none" stroke="oklch(80% .06 120)" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="85" cy="158" r="6" fill="oklch(57% .11 150)"/><circle cx="93" cy="169" r="3" fill="oklch(57% .11 150)"/>
+</svg>

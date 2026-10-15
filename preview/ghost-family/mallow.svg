@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Friendly cream sheet ghost waving with a floppy crown, tiny smile and peach cheeks"><style>.ink{fill:oklch(25% .038 290)}.line{fill:none;stroke:oklch(25% .038 290);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.light{fill:oklch(97% .008 290)}</style><defs><linearGradient id="cream" x2=".75" y2="1"><stop stop-color="oklch(97% .035 88)"/><stop offset=".58" stop-color="oklch(91% .064 85)"/><stop offset="1" stop-color="oklch(77% .1 65)"/></linearGradient></defs>
+<path d="M83 150Q53 166 47 144Q39 126 50 119Q62 120 68 132L86 129M201 140Q218 133 219 112Q217 99 227 96Q246 98 241 126Q240 149 202 161" fill="oklch(85% .066 82)"/>
+<path d="M69 204C82 158 68 99 100 70Q124 43 155 58Q175 43 192 60Q205 79 180 87C210 122 202 163 214 211Q196 194 178 215Q162 231 143 215Q124 232 106 214Q89 196 69 217Z" fill="url(#cream)"/>
+<path d="M95 104Q96 76 125 69Q111 89 110 106Q103 119 95 104" fill="oklch(98% .018 85)"/>
+<g id="expression"><ellipse cx="116" cy="133" rx="8" ry="12" fill="oklch(32% .055 65)"/><ellipse cx="167" cy="133" rx="8" ry="12" fill="oklch(32% .055 65)"/><circle cx="114" cy="129" r="2.5" class="light"/><circle cx="165" cy="129" r="2.5" class="light"/>
+<ellipse cx="98" cy="153" rx="12" ry="7" fill="oklch(79% .12 43)"/><ellipse cx="185" cy="153" rx="12" ry="7" fill="oklch(79% .12 43)"/>
+<path d="M132 154Q143 168 155 154" fill="none" stroke="oklch(37% .07 62)" stroke-width="4" stroke-linecap="round"/>
+</g><path d="M98 179Q93 199 100 208M182 182Q191 199 183 209" fill="none" stroke="oklch(81% .085 75)" stroke-width="4" stroke-linecap="round"/>
+</svg>

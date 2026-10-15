@@ -1,0 +1,20 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdtempSync,writeFileSync,rmSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {runHost} from '../host/run.mjs';
+import {crc32} from '../host/wire.mjs';
+const packet=p=>p+crc32(p)+'\n',delay=ms=>new Promise(r=>setTimeout(r,ms));
+test('E1 is boot-bound diagnostic only, never link liveness',async t=>{
+ const directory=mkdtempSync(join(tmpdir(),'watcher-path-')),helper=join(directory,'fake-python');
+ const hello=packet('D2 123 0 0 0 0 0 0 0 '),ack=packet('D2 123 1 1 0 0 0 0 4 ');
+ const detail=packet('E1 123 1 6 65535 0 34 0 80b5180001001000bf08000404000200 ');
+ const stale=packet('E1 999 1 6 65535 0 999 0 80b5180001001000bf08000404000200 ');
+ writeFileSync(helper,`#!/usr/bin/env node\nprocess.stdout.write(${JSON.stringify(hello)});process.stdin.once('data',()=>{process.stdout.write(${JSON.stringify(ack+detail+stale)});setInterval(()=>process.stdout.write(${JSON.stringify(detail+stale)}),100);});\n`,{mode:0o700});
+ const host=await runHost({directory,port:'/dev/cu.usbmodemTEST',python:helper});
+ t.after(async()=>{await host.close();rmSync(directory,{recursive:true,force:true});});
+ const deadline=Date.now()+4000;while(!host.status().audioPath&&Date.now()<deadline)await delay(25);
+ assert.equal(host.status().audioPath?.boot,123);assert.equal(host.status().audioPath?.dmaBlocks,34);
+ await delay(1800);assert.equal(host.status().receiving,false);assert.equal(host.status().audioPath,null);
+});

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Coral flame-shaped spirit with a split crown, little flipper arms and bright friendly eyes"><style>.ink{fill:oklch(25% .038 290)}.line{fill:none;stroke:oklch(25% .038 290);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.light{fill:oklch(97% .008 290)}</style><defs><linearGradient id="ember" x2=".5" y2="1"><stop stop-color="oklch(89% .13 80)"/><stop offset=".45" stop-color="oklch(76% .17 45)"/><stop offset="1" stop-color="oklch(55% .18 358)"/></linearGradient></defs>
+<path d="M81 147Q42 138 52 174Q66 166 81 177M201 147Q236 141 230 168Q216 163 204 179" fill="oklch(66% .17 32)"/>
+<path d="M142 33Q144 70 172 78Q184 83 182 55Q218 84 202 120Q228 155 210 187Q206 200 218 212Q194 221 177 205Q158 222 140 209Q117 229 102 209Q86 221 67 208Q78 196 68 176Q49 128 83 102Q97 87 91 65Q116 71 116 94Q139 72 142 33Z" fill="url(#ember)"/>
+<path d="M83 143Q75 127 94 111Q106 107 106 119Q90 130 94 143Q91 152 83 143" fill="oklch(92% .085 70)"/>
+<g id="expression"><ellipse cx="115" cy="143" rx="16" ry="20" fill="oklch(97% .025 75)"/><ellipse cx="167" cy="143" rx="16" ry="20" fill="oklch(97% .025 75)"/><ellipse cx="119" cy="145" rx="8" ry="13" fill="oklch(28% .065 335)"/><ellipse cx="163" cy="145" rx="8" ry="13" fill="oklch(28% .065 335)"/><circle cx="117" cy="140" r="3" class="light"/><circle cx="161" cy="140" r="3" class="light"/>
+<path d="M128 175Q142 189 155 174" fill="none" stroke="oklch(31% .075 345)" stroke-width="4" stroke-linecap="round"/>
+</g><ellipse cx="93" cy="165" rx="10" ry="5" fill="oklch(65% .2 12)"/><ellipse cx="187" cy="165" rx="10" ry="5" fill="oklch(65% .2 12)"/>
+</svg>

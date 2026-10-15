@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="466" height="466" viewBox="0 0 466 466" role="img" aria-labelledby="title desc">
+<title id="title">Afterlife Settings layout illustration</title><desc id="desc">Illustration, not a framebuffer capture. Vibration On, Sounds Off, Animations On, Saved on Mac and Back. Font appearance is approximate.</desc>
+<circle cx="233" cy="233" r="232" fill="#080810" stroke="#494056" stroke-width="2"/>
+<g font-family="monospace" text-anchor="middle" dominant-baseline="hanging" fill="#efefef">
+<text x="233" y="62" font-size="20">Settings</text>
+<text x="233" y="136" font-size="16">Vibration  On</text>
+<text x="233" y="208" font-size="16">Sounds  Off</text>
+<text x="233" y="280" font-size="16">Animations  On</text>
+<text x="233" y="348" font-size="10.4" fill="#bdbabd">Saved on Mac</text>
+<text x="233" y="414" font-size="16" fill="#b586d6">Back</text>
+</g></svg>

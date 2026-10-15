@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Teal wispy ghost with a swept crest, fin-like arms and a long curling comet tail"><style>.ink{fill:oklch(25% .038 290)}.line{fill:none;stroke:oklch(25% .038 290);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.light{fill:oklch(97% .008 290)}</style><defs><linearGradient id="wisp" x2=".9" y2="1"><stop stop-color="oklch(91% .08 174)"/><stop offset=".5" stop-color="oklch(76% .13 182)"/><stop offset="1" stop-color="oklch(48% .08 227)"/></linearGradient></defs>
+<path d="M82 143Q42 133 42 167Q53 160 75 169M190 138Q222 118 238 142Q217 143 206 162" fill="oklch(64% .1 190)"/>
+<path d="M170 62Q140 41 159 27Q112 38 105 65C56 79 51 135 77 173Q99 207 154 199Q189 195 202 211Q205 227 184 230Q224 241 237 214Q246 181 201 176C228 147 216 97 190 79Q181 64 170 62Z" fill="url(#wisp)"/>
+<path d="M85 113Q88 85 117 81Q102 96 102 115Q90 127 85 113" fill="oklch(95% .045 175)"/>
+<g id="expression"><ellipse cx="113" cy="129" rx="12" ry="18" fill="oklch(22% .045 220)"/><ellipse cx="168" cy="129" rx="12" ry="18" fill="oklch(22% .045 220)"/><ellipse cx="111" cy="125" rx="4" ry="6" fill="oklch(96% .03 178)"/><ellipse cx="166" cy="125" rx="4" ry="6" fill="oklch(96% .03 178)"/>
+<path d="M131 158Q141 166 150 156" fill="none" stroke="oklch(28% .065 220)" stroke-width="4" stroke-linecap="round"/>
+</g><path d="M111 180Q152 198 188 184" fill="none" stroke="oklch(85% .07 177)" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,25 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdtempSync,writeFileSync,readFileSync,rmSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {runHost} from '../host/run.mjs';
+import {crc32} from '../host/wire.mjs';
+const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+test('cached boot cannot keep sending application frames after silence; only bounded status queries continue',async t=>{
+ const directory=mkdtempSync(join(tmpdir(),'watcher-silence-')),counter=join(directory,'received.txt'),helper=join(directory,'fake-python');
+ const prefix='D2 123 0 0 0 0 0 0 0 ',packet=prefix+crc32(prefix)+'\n';
+ writeFileSync(counter,'');
+ writeFileSync(helper,`#!/usr/bin/env node\nconst fs=require('node:fs');process.stdout.write(${JSON.stringify(packet)});process.stdin.on('data',data=>fs.appendFileSync(${JSON.stringify(counter)},data));\n`,{mode:0o700});
+ const host=await runHost({directory,port:'/dev/cu.usbmodemTEST',python:helper});
+ t.after(async()=>{await host.close();rmSync(directory,{recursive:true,force:true});});
+ const deadline=Date.now()+4000;
+ while(host.status().boot===null && Date.now()<deadline)await delay(25);
+ assert.equal(host.status().boot,123);assert.equal(host.status().receiving,true);
+ await delay(1800);
+ assert.equal(host.status().ready,false);assert.equal(host.status().receiving,false);
+ const before=readFileSync(counter,'utf8');assert.match(before,/^W1 /m);
+ await delay(600);const additional=readFileSync(counter,'utf8').slice(before.length).trim().split('\n').filter(Boolean);
+ assert.ok(additional.length<=2);assert.ok(additional.every(line=>line==='Q1'));
+ assert.equal(host.status().fault,null);
+});
